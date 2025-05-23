@@ -1,0 +1,8 @@
+model:
+  name: bert-base-uncased
+  tokenizer: bert-base-uncased
+settings:
+  dataset: data/sample.json
+  max_length: 200
+  elsa_percent: 25
+  epochs: 3
